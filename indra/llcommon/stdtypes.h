@@ -60,8 +60,11 @@ typedef long long unsigned int		U64;
 
 typedef float				F32;
 typedef double				F64;
-
+#if defined(__APPLE__)
 typedef S32				BOOL;
+#else
+typedef S32				BOOL;
+#endif
 typedef U8				KEY;
 typedef U32				MASK;
 typedef U32             		TPACKETID;

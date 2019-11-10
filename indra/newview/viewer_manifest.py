@@ -954,7 +954,6 @@ class DarwinManifest(ViewerManifest):
                                 "libaprutil-1.0.dylib",
                                 "libcollada14dom.dylib",
                                 "libexpat.1.dylib",
-                                "libexception_handler.dylib",
                                 "libGLOD.dylib",
                                 "libfreetype*.dylib",
                                 "libopenjpeg.dylib",

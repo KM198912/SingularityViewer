@@ -1511,7 +1511,6 @@ set_source_files_properties(${viewer_HEADER_FILES}
                             PROPERTIES HEADER_FILE_ONLY TRUE)
 
 add_executable(${VIEWER_BINARY_NAME}
-    WIN32
     MACOSX_BUNDLE
     ${viewer_SOURCE_FILES}
     )
@@ -1794,7 +1793,6 @@ target_link_libraries(${VIEWER_BINARY_NAME}
     ${LLAPPEARANCE_LIBRARIES}
     absl::flat_hash_map
     absl::node_hash_map
-    ${FMT_LIBRARY}
     )
 
 if (LINUX)

@@ -1,0 +1,414 @@
+ '/usr/local/bin/cmake' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DADDRESS_SIZE:STRING=64' '-DROOT_PROJECT_NAME:STRING=Singularity' '-DINSTALL_PROPRIETARY=FALSE' '-G' 'Xcode' '-DFMODSTUDIO:BOOL=OFF' '-DPACKAGE:BOOL=OFF' '-DCMAKE_C_COMPILER=clang' '-DCMAKE_CXX_COMPILER=clang++' '../indra'
+-- Revision (from git) 8228
+-- Building 'Singularity Test' Version 1.8.7.8228
+-- No support for FMOD Studio audio (need to set FMODSTUDIO_SDK_DIR?)
+-- No support for FMOD Studio audio (need to set FMODSTUDIO_SDK_DIR?)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/devil/singularity/build-darwin-x86_64
+ '/usr/bin/xcodebuild' '-configuration' 'Release' '-project' 'Singularity.xcodeproj' '-DFMODSTUDIO:BOOL=OFF' '-DPACKAGE:BOOL=OFF' '-DCMAKE_C_COMPILER=clang' '-DCMAKE_CXX_COMPILER=clang++'
+User defaults from command line:
+    DCMAKE_C_COMPILER = clang
+    DCMAKE_CXX_COMPILER = clang++
+    DFMODSTUDIO:BOOL = OFF
+    DPACKAGE:BOOL = OFF
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET absl_dynamic_annotations OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_log_severity OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_spinlock_wait OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_raw_logging_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_base OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_malloc_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_throw_delegate OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_scoped_set_env OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_debugging_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_demangle_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_symbolize OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_stacktrace OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_int128 OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_strings_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_strings OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_graphcycles_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_civil_time OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_time_zone OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_time OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_synchronization OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_hashtablez_sampler OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_bad_optional_access OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_raw_hash_set OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_leak_check_disable OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_leak_check OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_examine_stack OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_failure_signal_handler OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_program_name OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_config OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_str_format_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_marshalling OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_handle OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_registry OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_usage_internal OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_usage OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_flags_parse OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_city OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_bad_variant_access OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_hash OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_randen_hwaes_impl OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_randen_slow OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_randen_hwaes OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_randen OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_seed_material OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_seed_gen_exception OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_pool_urbg OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_seed_sequences OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_distributions OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_random_internal_distribution_test_util OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET absl_bad_any_cast_impl OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET cmake OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD AGGREGATE TARGET stage_third_party_libs OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-9A42EC826F724DA49C0D178A.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-9A42EC826F724DA49C0D178A.sh
+
+PhaseScriptExecution CMake\ Rules /Users/devil/singularity/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-9A42EC826F724DA49C0D178A.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/llcommon/Singularity.build/Release/stage_third_party_libs.build/Script-9A42EC826F724DA49C0D178A.sh
+make: Nothing to be done for `all'.
+
+=== BUILD TARGET llcommon OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llaudio OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llcharacter OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llcorehttp OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llimage OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llinventory OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llmath OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llvfs OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llmessage OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llwindow OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llxml OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llrender OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llappearance OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET hacd OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET nd_hacdConvexDecomposition OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET nd_Pathing OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llimagej2coj OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llprimitive OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET llplugin OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET AlchemyPlugin OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-7AA9C4E181DB4C7686A6DB53.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-7AA9C4E181DB4C7686A6DB53.sh
+
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/devil/singularity/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-7AA9C4E181DB4C7686A6DB53.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/llplugin/slplugin/Singularity.build/Release/AlchemyPlugin.build/Script-7AA9C4E181DB4C7686A6DB53.sh
+mkdir -p /Users/devil/singularity/build-darwin-x86_64/llplugin/slplugin/Release/AlchemyPlugin.app/Contents/Resources
+
+=== BUILD TARGET llui OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET media_plugin_base OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET media_plugin_libvlc OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Singularity.build/Release/media_plugin_libvlc.build/Script-78F5F742331643F394682B89.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Singularity.build/Release/media_plugin_libvlc.build/Script-78F5F742331643F394682B89.sh
+
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Singularity.build/Release/media_plugin_libvlc.build/Script-78F5F742331643F394682B89.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Singularity.build/Release/media_plugin_libvlc.build/Script-78F5F742331643F394682B89.sh
+echo "Creating symlinks"
+Creating symlinks
+/Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Release/media_plugin_libvlc.dylib /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Release/media_plugin_libvlc.dylib /Users/devil/singularity/build-darwin-x86_64/media_plugins/libvlc/Release/media_plugin_libvlc.dylib
+
+=== BUILD TARGET media_plugin_cef OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-DA2A13A7B0B54F5EB131BA46.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-DA2A13A7B0B54F5EB131BA46.sh
+
+PhaseScriptExecution CMake\ PostBuild\ Rules /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-DA2A13A7B0B54F5EB131BA46.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Singularity.build/Release/media_plugin_cef.build/Script-DA2A13A7B0B54F5EB131BA46.sh
+echo "Creating symlinks"
+Creating symlinks
+/Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib /Users/devil/singularity/build-darwin-x86_64/media_plugins/cef/Release/media_plugin_cef.dylib
+
+=== BUILD AGGREGATE TARGET generate_viewer_version OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-D78D3F223A824EEB8A2796CE.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-D78D3F223A824EEB8A2796CE.sh
+
+PhaseScriptExecution CMake\ Rules /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-D78D3F223A824EEB8A2796CE.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/generate_viewer_version.build/Script-D78D3F223A824EEB8A2796CE.sh
+echo "Generating viewer_version.txt for manifest processing"
+Generating viewer_version.txt for manifest processing
+/Applications/CMake.app/Contents/bin/cmake -E echo 1.8.7.8228 > /Users/devil/singularity/build-darwin-x86_64/newview/viewer_version.txt
+/Applications/CMake.app/Contents/bin/cmake -E echo {"Type":"viewer","Version":"1.8.7.8228"} > /Users/devil/singularity/build-darwin-x86_64/summary.json
+
+=== BUILD TARGET singularity-bin OF PROJECT Singularity WITH CONFIGURATION Release ===
+
+Check dependencies
+Warning: Multiple build commands for output file /Users/devil/singularity/build-darwin-x86_64/newview/Release/SingularityTest.app/Contents/Resources/language.txt
+Warning: Multiple build commands for output file /Users/devil/singularity/build-darwin-x86_64/newview/Release/SingularityTest.app/Contents/Resources/language.txt
+Warning: Multiple build commands for output file /Users/devil/singularity/build-darwin-x86_64/newview/Release/SingularityTest.app/Contents/Resources/language.txt
+
+Write auxiliary files
+write-file /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-F7B32C587B2141FE8C7B2DF9.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-F7B32C587B2141FE8C7B2DF9.sh
+write-file /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-45C81F79498E45CDABC45E75.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-45C81F79498E45CDABC45E75.sh
+write-file /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-DE18EC6B3928443D95C991FD.sh
+chmod 0755 /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-DE18EC6B3928443D95C991FD.sh
+
+PhaseScriptExecution CMake\ Rules /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-45C81F79498E45CDABC45E75.sh
+    cd /Users/devil/singularity/indra
+    /bin/sh -c /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Script-45C81F79498E45CDABC45E75.sh
+make: Nothing to be done for `all'.
+
+Ld /Users/devil/singularity/build-darwin-x86_64/newview/Release/SingularityTest.app/Contents/MacOS/SingularityTest normal x86_64
+    cd /Users/devil/singularity/indra
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/devil/singularity/build-darwin-x86_64/newview/Release -L/Users/devil/singularity/build-darwin-x86_64/packages/lib/Release -L/Users/devil/singularity/build-darwin-x86_64/packages/lib -F/Users/devil/singularity/build-darwin-x86_64/newview/Release -filelist /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/SingularityTest.LinkFileList -Xlinker -rpath -Xlinker /Users/devil/singularity/build-darwin-x86_64/packages/lib -dead_strip -Xlinker -object_path_lto -Xlinker /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/SingularityTest_lto.o -stdlib=libc++ -fobjc-link-runtime -Xlinker -dead_strip -Xlinker -map -Xlinker /Users/devil/singularity/build-darwin-x86_64/newview/singularity-bin.MAP -Wl,-headerpad_max_install_names,-search_paths_first /Users/devil/singularity/build-darwin-x86_64/llaudio/Release/libllaudio.a -lvorbisfile -lvorbis -lvorbisenc -logg -lvorbisenc -lvorbisfile -lvorbis -logg /Users/devil/singularity/build-darwin-x86_64/llcharacter/Release/libllcharacter.a /Users/devil/singularity/build-darwin-x86_64/llimage/Release/libllimage.a /Users/devil/singularity/build-darwin-x86_64/llimagej2coj/Release/libllimagej2coj.a /Users/devil/singularity/build-darwin-x86_64/llinventory/Release/libllinventory.a /Users/devil/singularity/build-darwin-x86_64/llmessage/Release/libllmessage.a /Users/devil/singularity/build-darwin-x86_64/llplugin/Release/libllplugin.a /Users/devil/singularity/build-darwin-x86_64/llprimitive/Release/libllprimitive.a -lcollada14dom -lminizip -lxml2 -liconv /Users/devil/singularity/build-darwin-x86_64/llrender/Release/libllrender.a -lfreetype /Users/devil/singularity/build-darwin-x86_64/llui/Release/libllui.a /Users/devil/singularity/build-darwin-x86_64/llvfs/Release/libllvfs.a /Users/devil/singularity/build-darwin-x86_64/llwindow/Release/libllwindow.a /Users/devil/singularity/build-darwin-x86_64/llxml/Release/libllxml.a /Users/devil/singularity/build-darwin-x86_64/llmath/Release/libllmath.a /Users/devil/singularity/build-darwin-x86_64/llcorehttp/Release/libllcorehttp.a -lboost_coroutine-mt -lboost_context-mt -lboost_system-mt /Users/devil/singularity/build-darwin-x86_64/llcommon/Release/libllcommon.a -lboost_coroutine-mt -lboost_context-mt -lboost_thread-mt -lboost_system-mt -lndofdev -luriparser -framework Cocoa -framework AGL -framework IOKit -framework CoreAudio -framework Carbon -lboost_context-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_regex-mt -lboost_system-mt -lboost_date_time-mt -framework OpenGL -framework OpenGL -lGLOD -framework OpenGL -framework OpenGL /Users/devil/singularity/build-darwin-x86_64/packages/lib/release/libexpat.a -lxmlrpc-epi -lcrypto -lssl -lcrypto -lcrypto -lhunspell-1.6 /Users/devil/singularity/build-darwin-x86_64/libndhacd/Release/libnd_hacdConvexDecomposition.a /Users/devil/singularity/build-darwin-x86_64/libhacd/Release/libhacd.a /Users/devil/singularity/build-darwin-x86_64/libpathing/Release/libnd_Pathing.a /Users/devil/singularity/build-darwin-x86_64/llappearance/Release/libllappearance.a /Users/devil/singularity/build-darwin-x86_64/llmessage/Release/libllmessage.a /Users/devil/singularity/build-darwin-x86_64/llcorehttp/Release/libllcorehttp.a -lboost_coroutine-mt -lboost_context-mt -lboost_system-mt -lopenjpeg /Users/devil/singularity/build-darwin-x86_64/llcharacter/Release/libllcharacter.a /Users/devil/singularity/build-darwin-x86_64/llinventory/Release/libllinventory.a -lxmlrpc-epi /Users/devil/singularity/build-darwin-x86_64/llrender/Release/libllrender.a /Users/devil/singularity/build-darwin-x86_64/llimage/Release/libllimage.a -ljpeg -lpng16 -lfreetype /Users/devil/singularity/build-darwin-x86_64/llwindow/Release/libllwindow.a -framework OpenGL /Users/devil/singularity/build-darwin-x86_64/llxml/Release/libllxml.a /Users/devil/singularity/build-darwin-x86_64/llvfs/Release/libllvfs.a -framework Cocoa -lboost_filesystem-mt /Users/devil/singularity/build-darwin-x86_64/llmath/Release/libllmath.a -lcurl -liconv /Users/devil/singularity/build-darwin-x86_64/llcommon/Release/libllcommon.a -laprutil-1 -lapr-1 -lboost_coroutine-mt -lboost_context-mt -luriparser -lboost_program_options-mt -lboost_regex-mt /Users/devil/singularity/build-darwin-x86_64/packages/lib/release/libexpat.a -lssl -lcrypto -lz -lboost_chrono-mt -lboost_thread-mt -lboost_system-mt /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/hash/Release/libabsl_absl_hash.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/types/Release/libabsl_absl_bad_variant_access.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/hash/Release/libabsl_absl_city.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/container/Release/libabsl_absl_raw_hash_set.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/types/Release/libabsl_absl_bad_optional_access.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/container/Release/libabsl_absl_hashtablez_sampler.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/synchronization/Release/libabsl_absl_synchronization.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/synchronization/Release/libabsl_absl_graphcycles_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/debugging/Release/libabsl_absl_stacktrace.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/debugging/Release/libabsl_absl_symbolize.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_malloc_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/debugging/Release/libabsl_absl_debugging_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/debugging/Release/libabsl_absl_demangle_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/time/Release/libabsl_absl_time.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/strings/Release/libabsl_absl_strings.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/numeric/Release/libabsl_absl_int128.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/strings/Release/libabsl_absl_strings_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_base.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_dynamic_annotations.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_spinlock_wait.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/time/Release/libabsl_absl_civil_time.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/time/Release/libabsl_absl_time_zone.a -framework CoreFoundation /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_throw_delegate.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_raw_logging_internal.a /Users/devil/singularity/build-darwin-x86_64/_deps/absl-build/absl/base/Release/libabsl_absl_log_severity.a -Xlinker -dependency_info -Xlinker /Users/devil/singularity/build-darwin-x86_64/newview/Singularity.build/Release/singularity-bin.build/Objects-normal/x86_64/SingularityTest_dependency_info.dat -o /Users/devil/singularity/build-darwin-x86_64/newview/Release/SingularityTest.app/Contents/MacOS/SingularityTest
+Undefined symbols for architecture x86_64:
+  "init_apple_menu(char const*)", referenced from:
+      LLAppViewer::initConfiguration() in llappviewer.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+

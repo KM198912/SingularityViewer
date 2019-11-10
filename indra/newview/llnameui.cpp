@@ -140,3 +140,4 @@ void LLNameUI::showProfile()
 	else
 		LLAvatarActions::showProfile(mNameID);
 }
+

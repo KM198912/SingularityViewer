@@ -85,3 +85,4 @@ protected:
 	bool mAllowInteract;
 	std::string mInitialValue;
 };
+

@@ -181,7 +181,7 @@ if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
   set(DARWIN ON BOOL FORCE)
 
   # Architecture
-  set(CMAKE_OSX_SYSROOT macosx10.14)
+  set(CMAKE_OSX_SYSROOT macosx10.15)
   set(CMAKE_OSX_ARCHITECTURES "x86_64")
   set(CMAKE_XCODE_ATTRIBUTE_VALID_ARCHS "x86_64")
 
@@ -190,7 +190,7 @@ if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     message( FATAL_ERROR "Xcode 10.2.0 or greater is required." )
   endif (XCODE_VERSION LESS 10.2.0)
     message( "Building with " ${CMAKE_OSX_SYSROOT} )
-  set(CMAKE_OSX_DEPLOYMENT_TARGET 10.13)
+  set(CMAKE_OSX_DEPLOYMENT_TARGET 10.15)
 
   # Compiler setup
   set(CMAKE_XCODE_ATTRIBUTE_GCC_VERSION "com.apple.compilers.llvm.clang.1_0")

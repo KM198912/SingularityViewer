@@ -155,7 +155,7 @@ elseif(DARWIN)
         libapr-1.dylib
         libaprutil-1.0.dylib
         libaprutil-1.dylib
-        libexception_handler.dylib
+        #libexception_handler.dylib
         libfreetype.6.dylib
         libGLOD.dylib
         libndofdev.dylib

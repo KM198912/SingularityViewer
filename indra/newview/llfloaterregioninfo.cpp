@@ -4315,7 +4315,7 @@ const std::string& getNAString()
 	static const auto na = LLTrans::getString("na");
 	return na;
 }
-
+#if(LL_LINUX)
 #if defined(__GNUC__) && __GNUC__ < 5 // On GCC 4, implement std::get_time using strptime
 #include <time.h>
 
@@ -4336,7 +4336,7 @@ namespace std
 	}
 }
 #endif
-
+#endif
 void handlePseudoISO8601(const std::string& date_str, LLSD& column, const std::string& fmt)
 {
 	if (date_str.front() == '0') // server returns the "0000-00-00 00:00:00" date in case it doesn't know it
@@ -4346,13 +4346,13 @@ void handlePseudoISO8601(const std::string& date_str, LLSD& column, const std::s
 	else
 	{
 		std::tm time = {};
-		if (std::istringstream(date_str) >> std::get_time(&time, "%F %T"))
+/*		if (std::istringstream(date_str) >> std::get_time(&time, "%F %T"))
 		{
 			column["value"] = LLDate(mktime(&time));
 			column["type"] = "date";
 			column["format"] = fmt;
 		}
-		else column["value"] = date_str;
+		else column["value"] = date_str;*/
 	}
 }
 void LLPanelEstateAccess::onEstateAccessReceived(const LLSD& result)
